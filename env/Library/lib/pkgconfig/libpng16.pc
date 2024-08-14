@@ -1,0 +1,12 @@
+prefix=C:/Users/hp/Desktop/Customer-Churn-predicetion/env/Library
+exec_prefix=C:/Users/hp/Desktop/Customer-Churn-predicetion/env/Library
+libdir=C:/Users/hp/Desktop/Customer-Churn-predicetion/env/Library/lib
+includedir=C:/Users/hp/Desktop/Customer-Churn-predicetion/env/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz
+Cflags: -I${includedir}
